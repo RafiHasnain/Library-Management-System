@@ -56,19 +56,19 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(214, 9);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(860, 364);
+            this.dataGridView1.Size = new System.Drawing.Size(934, 364);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(41, 72);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(116, 20);
             this.textBox1.TabIndex = 1;
@@ -91,15 +91,15 @@
             this.panel1.Controls.Add(this.student_name);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(214, 414);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(860, 203);
+            this.panel1.Size = new System.Drawing.Size(934, 203);
             this.panel1.TabIndex = 2;
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(338, 146);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(95, 28);
             this.button2.TabIndex = 13;
@@ -110,7 +110,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(130, 146);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 28);
             this.button1.TabIndex = 12;
@@ -121,7 +121,7 @@
             // student_email
             // 
             this.student_email.Location = new System.Drawing.Point(533, 92);
-            this.student_email.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.student_email.Margin = new System.Windows.Forms.Padding(2);
             this.student_email.Name = "student_email";
             this.student_email.Size = new System.Drawing.Size(96, 20);
             this.student_email.TabIndex = 11;
@@ -139,7 +139,7 @@
             // student_contact
             // 
             this.student_contact.Location = new System.Drawing.Point(533, 38);
-            this.student_contact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.student_contact.Margin = new System.Windows.Forms.Padding(2);
             this.student_contact.Name = "student_contact";
             this.student_contact.Size = new System.Drawing.Size(96, 20);
             this.student_contact.TabIndex = 9;
@@ -157,7 +157,7 @@
             // student_sem
             // 
             this.student_sem.Location = new System.Drawing.Point(338, 96);
-            this.student_sem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.student_sem.Margin = new System.Windows.Forms.Padding(2);
             this.student_sem.Name = "student_sem";
             this.student_sem.Size = new System.Drawing.Size(95, 20);
             this.student_sem.TabIndex = 7;
@@ -175,7 +175,7 @@
             // student_dept
             // 
             this.student_dept.Location = new System.Drawing.Point(338, 38);
-            this.student_dept.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.student_dept.Margin = new System.Windows.Forms.Padding(2);
             this.student_dept.Name = "student_dept";
             this.student_dept.Size = new System.Drawing.Size(95, 20);
             this.student_dept.TabIndex = 5;
@@ -193,7 +193,7 @@
             // student_ID
             // 
             this.student_ID.Location = new System.Drawing.Point(130, 96);
-            this.student_ID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.student_ID.Margin = new System.Windows.Forms.Padding(2);
             this.student_ID.Name = "student_ID";
             this.student_ID.Size = new System.Drawing.Size(95, 20);
             this.student_ID.TabIndex = 3;
@@ -211,7 +211,7 @@
             // student_name
             // 
             this.student_name.Location = new System.Drawing.Point(130, 38);
-            this.student_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.student_name.Margin = new System.Windows.Forms.Padding(2);
             this.student_name.Name = "student_name";
             this.student_name.Size = new System.Drawing.Size(95, 20);
             this.student_name.TabIndex = 1;
@@ -245,13 +245,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 609);
+            this.ClientSize = new System.Drawing.Size(1165, 640);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "View_student_info";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "View_student_info";
             this.Load += new System.EventHandler(this.View_student_info_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

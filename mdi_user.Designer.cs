@@ -39,11 +39,11 @@
             this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewStudentInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.remainBooksReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.remainBooksReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -132,6 +132,21 @@
             this.viewStudentInfoToolStripMenuItem.Text = "View Student info";
             this.viewStudentInfoToolStripMenuItem.Click += new System.EventHandler(this.viewStudentInfoToolStripMenuItem_Click);
             // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.remainBooksReportToolStripMenuItem});
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.reportToolStripMenuItem.Text = "Report";
+            // 
+            // remainBooksReportToolStripMenuItem
+            // 
+            this.remainBooksReportToolStripMenuItem.Name = "remainBooksReportToolStripMenuItem";
+            this.remainBooksReportToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.remainBooksReportToolStripMenuItem.Text = "Remain Books Report";
+            this.remainBooksReportToolStripMenuItem.Click += new System.EventHandler(this.remainBooksReportToolStripMenuItem_Click);
+            // 
             // statusStrip
             // 
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -149,21 +164,6 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(39, 17);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // reportToolStripMenuItem
-            // 
-            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.remainBooksReportToolStripMenuItem});
-            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.reportToolStripMenuItem.Text = "Report";
-            // 
-            // remainBooksReportToolStripMenuItem
-            // 
-            this.remainBooksReportToolStripMenuItem.Name = "remainBooksReportToolStripMenuItem";
-            this.remainBooksReportToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.remainBooksReportToolStripMenuItem.Text = "Remain Books Report";
-            this.remainBooksReportToolStripMenuItem.Click += new System.EventHandler(this.remainBooksReportToolStripMenuItem_Click);
-            // 
             // mdi_user
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -174,6 +174,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "mdi_user";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mdi_user";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip.ResumeLayout(false);

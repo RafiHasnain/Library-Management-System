@@ -61,6 +61,7 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.button1);
             this.Name = "Report_books_remain_retain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Report_books_remain_retain";
             this.Load += new System.EventHandler(this.Report_books_remain_retain_Load);
             this.ResumeLayout(false);
