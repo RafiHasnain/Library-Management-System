@@ -128,5 +128,29 @@ namespace Library_ManagementSystem
             View_student_info vsi = new View_student_info();
             vsi.Show();
         }
+
+        private void issueBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Issue_books ib = new Issue_books();
+            ib.Show();
+        }
+
+        private void returnBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Return_books rb = new Return_books();
+            rb.Show();
+        }
+
+        private void bookStockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Book_Stock bs = new Book_Stock();
+            bs.Show();
+        }
+
+        private void remainBooksReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Report_books_remain_retain rb = new Report_books_remain_retain();
+            rb.Show();
+        }
     }
 }

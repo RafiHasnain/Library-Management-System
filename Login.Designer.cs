@@ -1,6 +1,6 @@
 ﻿namespace Library_ManagementSystem
 {
-    partial class LoginForm
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.login_btn = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();

@@ -71,5 +71,10 @@ namespace Library_ManagementSystem
             }
 
         }
+
+        private void Add_student_info_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

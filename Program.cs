@@ -16,7 +16,8 @@ namespace Library_ManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View_student_info());
+            Application.Run(new Login());
         }
     }
 }
+//D:\C# project\Library management system\Library_ManagementSystem\Program.cs
