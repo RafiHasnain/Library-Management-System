@@ -89,9 +89,9 @@ namespace Library_ManagementSystem
             smtp.EnableSsl = true;
             smtp.UseDefaultCredentials = false;
             //(username,password)
-            smtp.Credentials = new NetworkCredential("xxxxx@gmail.com", "xxxxx");
+            smtp.Credentials = new NetworkCredential("UserName@gmail.com", "Password");
             //(from, to, subject, body)
-            MailMessage mail = new MailMessage("xxxxxxx@gmail.com", textBox2.Text, "This is for book return notice",textBox3.Text);
+            MailMessage mail = new MailMessage("UserName@gmail.com", textBox2.Text, "This is for book return notice",textBox3.Text);
             mail.Priority = MailPriority.High;
             smtp.Send(mail);
             MessageBox.Show("mail sent");
