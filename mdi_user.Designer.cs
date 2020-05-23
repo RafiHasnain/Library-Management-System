@@ -175,7 +175,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "mdi_user";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "mdi_user";
+            this.Text = "Main Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
